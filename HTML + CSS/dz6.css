@@ -1,0 +1,46 @@
+nav{
+    padding: 30px;
+    background-color: beige;
+    font-family: Verdana;
+    margin: 1em;
+}
+h1{
+    padding-left: 40px;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+  padding: 12px 8px 12px 40px;
+  background: #00BFFF;
+  font-size: 20px;
+}
+
+li.qw{
+   list-style-image:url(btrt.png); 
+   list-style-position: inside;
+}
+li.qe{
+    list-style-image: url(we.png);
+    list-style-position: inside;
+    background: #C0C0C0;
+    text-decoration: line-through;
+}
+li.qr{
+    list-style-image: url(we.png);
+    list-style-position: inside;
+    background: #C0C0C0;
+    text-decoration: line-through;
+}
+li.qt{
+    list-style-image: url(we.png);
+    list-style-position: inside;
+    background: #C0C0C0;
+    text-decoration: line-through;
+}
+li.qq{
+   list-style-image:url(btrt.png); 
+   list-style-position: inside;
+   background: #87CEEB;
+}
+

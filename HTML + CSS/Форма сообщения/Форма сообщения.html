@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Форма для отправки сообщений</title>
+        <link rel="stylesheet" href="style12.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="content">
+            <form enctype="multipart/form-data" action="handler.php" method="get">
+                <h2>Contact form</h2>
+            <p>Please fill in your information and we'll be sending your order.</p><br>
+                <ul>
+                <li>
+            <label>Your name</label>
+                <input name="name" type="text" placeholder="first name">
+                <input name="lastname" type="text" placeholder="last name">
+                    </li>
+                <li>
+            <label>Your email</label>
+                <input name="email" type="email" placeholder="your_mail@mail.com">
+                </li>
+                <li>
+            <label>Phone<span>*</span></label>
+                <input name="username" type="text" placeholder="000">
+                <input name="username1" type="text" placeholder="000">
+                <input name="username2" type="text" placeholder="0000">
+                </li>
+                <li>
+                <label>Message subject<span>*</span></label>
+                <select>
+            <option value="other">OTHER</option>
+            <option value="complaint">COMPLAINT</option>
+                </select><br><br>
+                </li>
+                <li>
+            <label>Message<span>*</span></label>
+                    <textarea name="bigtext" cols="800" role="60"></textarea>
+                </li>
+                <hr align="center" width="950" size="2" color="black"><br>
+                <br>
+                <li>
+                <input id="submitBtn" type="submit" value="SUBMIT FORM" />
+                </ul>
+            </form>
+        </div>
+            
+         <div class="video">
+             <iframe width="1350" height="315" src="https://www.youtube.com/embed/6A_O2Eaoc3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </body>
+</html>
